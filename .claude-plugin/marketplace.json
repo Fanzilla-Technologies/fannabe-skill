@@ -9,7 +9,7 @@
       "name": "fannabe",
       "source": "./",
       "description": "Generate images, videos, and voice for your AI characters via the Fannabe CLI.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "skills": [
         {
           "name": "generate",
