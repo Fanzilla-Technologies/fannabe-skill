@@ -1,5 +1,5 @@
 ---
-version: 0.1.0
+version: 0.1.1
 name: fannabe-generate
 description: |
   Generate images, videos, and voice for your AI characters via Fannabe.
