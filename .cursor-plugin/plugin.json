@@ -1,0 +1,25 @@
+{
+  "$schema": "https://cursor.com/schemas/cursor-plugin/plugin.json",
+  "name": "fannabe",
+  "displayName": "Fannabe",
+  "version": "0.1.0",
+  "description": "Generate images, videos, and voice for your AI characters, with motion control, character swap, edits, and captions, via the Fannabe CLI.",
+  "author": {
+    "name": "Fanzilla Technologies",
+    "email": "support@fannabe.com"
+  },
+  "publisher": "FanzillaTechnologies",
+  "homepage": "https://www.fannabe.com",
+  "repository": "https://github.com/Fanzilla-Technologies/fannabe-skill",
+  "license": "MIT",
+  "category": "ai-content",
+  "keywords": [
+    "fannabe",
+    "ai",
+    "image-generation",
+    "video-generation",
+    "ai-characters",
+    "motion-control",
+    "character-swap"
+  ]
+}

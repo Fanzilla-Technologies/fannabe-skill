@@ -1,0 +1,24 @@
+{
+  "name": "fannabe",
+  "version": "0.1.0",
+  "description": "Fannabe AI skills: generate images, videos, and voice for your AI characters, with motion control, character swap, edits, prompt tools, and captions, via the Fannabe CLI.",
+  "author": {
+    "name": "Fanzilla Technologies",
+    "url": "https://www.fannabe.com"
+  },
+  "homepage": "https://www.fannabe.com",
+  "repository": "https://github.com/Fanzilla-Technologies/fannabe-skill",
+  "license": "MIT",
+  "keywords": [
+    "fannabe",
+    "ai",
+    "image-generation",
+    "video-generation",
+    "ai-characters",
+    "motion-control",
+    "character-swap",
+    "img2img",
+    "img2vid",
+    "voice"
+  ]
+}

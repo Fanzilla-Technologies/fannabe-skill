@@ -1,0 +1,22 @@
+{
+  "name": "fannabe",
+  "owner": {
+    "name": "Fanzilla Technologies",
+    "url": "https://www.fannabe.com"
+  },
+  "plugins": [
+    {
+      "name": "fannabe",
+      "source": "./",
+      "description": "Generate images, videos, and voice for your AI characters via the Fannabe CLI.",
+      "version": "0.1.0",
+      "skills": [
+        {
+          "name": "generate",
+          "path": "fannabe-generate",
+          "invoke": "/fannabe:generate"
+        }
+      ]
+    }
+  ]
+}

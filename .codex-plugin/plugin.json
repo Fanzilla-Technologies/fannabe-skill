@@ -1,0 +1,41 @@
+{
+  "name": "fannabe",
+  "version": "0.1.0",
+  "description": "Generate images, videos, and voice for your AI characters via the Fannabe CLI.",
+  "author": {
+    "name": "Fanzilla Technologies",
+    "email": "support@fannabe.com",
+    "url": "https://www.fannabe.com"
+  },
+  "homepage": "https://www.fannabe.com",
+  "repository": "https://github.com/Fanzilla-Technologies/fannabe-skill",
+  "license": "MIT",
+  "keywords": [
+    "fannabe",
+    "ai",
+    "image-generation",
+    "video-generation",
+    "ai-characters",
+    "motion-control"
+  ],
+  "skills": "./",
+  "interface": {
+    "displayName": "Fannabe",
+    "shortDescription": "Generate images, videos, and voice for your AI characters",
+    "longDescription": "Fannabe turns your agent into an AI-character studio. Generate images and videos across many models, animate stills with image-to-video and motion control, swap characters into scenes, edit and restyle images, run prompt tools, burn captions onto videos, and download the results, all through the authenticated Fannabe CLI with the same models and credit pricing as the web studio.",
+    "developerName": "Fanzilla Technologies",
+    "category": "Design",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.fannabe.com",
+    "defaultPrompt": [
+      "Generate a golden hour rooftop portrait of my character",
+      "Animate this photo into a short video",
+      "Transfer the motion from this clip onto my character",
+      "Show me my latest renders and download them"
+    ],
+    "brandColor": "#ff1b91"
+  }
+}
