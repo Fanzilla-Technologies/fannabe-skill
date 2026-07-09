@@ -1,6 +1,6 @@
 # Fannabe Skills
 
-Agent skills for [Fannabe](https://www.fannabe.com) — generate images, videos, and voice for your AI characters from any skill-capable agent (OpenClaw, Hermes, Claude Code, Cursor, Codex).
+Agent skills for [Fannabe](https://www.fannabe.com) — generate images, videos, and voice for your AI models from any skill-capable agent (OpenClaw, Hermes, Claude Code, Cursor, Codex).
 
 The skills wrap the [`@fannabe/cli`](https://www.npmjs.com/package/@fannabe/cli), so once installed you can just say: **"Generate an image with Fannabe."**
 

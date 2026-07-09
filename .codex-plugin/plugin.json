@@ -1,7 +1,7 @@
 {
   "name": "fannabe",
-  "version": "0.1.3",
-  "description": "Generate images, videos, and voice for your AI characters via the Fannabe CLI.",
+  "version": "0.1.4",
+  "description": "Generate images, videos, and voice for your AI models via the Fannabe CLI.",
   "author": {
     "name": "Fanzilla Technologies",
     "email": "support@fannabe.com",
@@ -15,14 +15,14 @@
     "ai",
     "image-generation",
     "video-generation",
-    "ai-characters",
+    "ai-models",
     "motion-control"
   ],
   "skills": "./",
   "interface": {
     "displayName": "Fannabe",
-    "shortDescription": "Generate images, videos, and voice for your AI characters",
-    "longDescription": "Fannabe turns your agent into an AI-character studio. Generate images and videos across many models, animate stills with image-to-video and motion control, swap characters into scenes, edit and restyle images, run prompt tools, burn captions onto videos, and download the results, all through the authenticated Fannabe CLI with the same models and credit pricing as the web studio.",
+    "shortDescription": "Generate images, videos, and voice for your AI models",
+    "longDescription": "Fannabe turns your agent into an AI-model studio. Generate images and videos across many AI engines, animate stills with image-to-video and motion control, swap characters into scenes, edit and restyle images, run prompt tools, burn captions onto videos, and download the results, all through the authenticated Fannabe CLI with the same AI engines and credit pricing as the web studio.",
     "developerName": "Fanzilla Technologies",
     "category": "Design",
     "capabilities": [
@@ -31,9 +31,9 @@
     ],
     "websiteURL": "https://www.fannabe.com",
     "defaultPrompt": [
-      "Generate a golden hour rooftop portrait of my character",
+      "Generate a golden hour rooftop portrait of my model",
       "Animate this photo into a short video",
-      "Transfer the motion from this clip onto my character",
+      "Transfer the motion from this clip onto my model",
       "Show me my latest renders and download them"
     ],
     "brandColor": "#ff1b91"

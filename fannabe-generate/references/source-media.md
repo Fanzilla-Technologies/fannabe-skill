@@ -1,6 +1,6 @@
 # Source media: image-to-video, edits, motion control, character swap
 
-Many workflows attach existing media to a model's input slots via repeatable `--source inputKey=mediaId`. Discover the slots with `fannabe models schema <modelId>` (the "Source media" section lists each slot's inputKey).
+Many workflows attach existing media to an AI's input slots via repeatable `--source inputKey=mediaId`. Discover the slots with `fannabe ai schema <aiId>` (the "Source media" section lists each slot's inputKey).
 
 ## Two id kinds, never interchangeable
 
@@ -8,7 +8,7 @@ Many workflows attach existing media to a model's input slots via repeatable `--
 - **Media id** (the `Media ID (--source)` column, or an upload's `imageId`/`videoId`/`audioId`): `--source` slots on generation.
 
 ```bash
-fannabe characters gallery <characterId> --media-type image   # shows both id columns
+fannabe models gallery <characterId> --media-type image       # shows both id columns
 fannabe uploads image ./scene.png                             # prints contentId AND imageId
 ```
 
@@ -23,7 +23,7 @@ fannabe generate create seedance-1-5-pro \
   --wait --wait-timeout 15m --download ./output
 ```
 
-## Motion control (transfer a clip's movement onto a character still)
+## Motion control (transfer a clip's movement onto a model still)
 
 ```bash
 fannabe generate create kling-2-6-motion-control \
@@ -34,8 +34,8 @@ fannabe generate create kling-2-6-motion-control \
   --wait --wait-timeout 15m --download ./output
 ```
 
-Output length follows the motion clip (3-30s) and cost is priced per second. Need a character still that matches the clip's framing? `fannabe video frame <videoContentIdOrFile> --time 1.5 --upload` extracts a frame and returns an `imageId` ready for `image-1`.
+Output length follows the motion clip (3-30s) and cost is priced per second. Need a model still that matches the clip's framing? `fannabe video frame <videoContentIdOrFile> --time 1.5 --upload` extracts a frame and returns an `imageId` ready for `image-1`.
 
 ## Character swap
 
-The `character-ref` slot is auto-filled from the character's stored default swap image; the scene-ref must be an account-level uploaded image (`fannabe uploads image ...`, then its `imageId`). Read `models schema <swapModelId>` for the exact slot keys.
+The `character-ref` slot is auto-filled from the model's stored default swap image; the scene-ref must be an account-level uploaded image (`fannabe uploads image ...`, then its `imageId`). Read `ai schema <swapAiId>` for the exact slot keys.
