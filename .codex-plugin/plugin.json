@@ -1,6 +1,6 @@
 {
   "name": "fannabe",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Generate images, videos, and voice for your AI models via the Fannabe CLI.",
   "author": {
     "name": "Fanzilla Technologies",

@@ -8,7 +8,7 @@ Many workflows attach existing media to an AI's input slots via repeatable `--so
 - **Media id** (the `Media ID (--source)` column, or an upload's `imageId`/`videoId`/`audioId`): `--source` slots on generation.
 
 ```bash
-fannabe models gallery <characterId> --media-type image       # shows both id columns
+fannabe models gallery <modelId> --media-type image       # shows both id columns
 fannabe uploads image ./scene.png                             # prints contentId AND imageId
 ```
 
@@ -16,7 +16,7 @@ fannabe uploads image ./scene.png                             # prints contentId
 
 ```bash
 fannabe generate create seedance-1-5-pro \
-  --character <characterId> --media-type video --concept-type video-from-image \
+  --model <modelId> --media-type video --concept-type video-from-image \
   --source image-1=<mediaId> \
   --prompt "she sips her coffee and smiles" \
   --set duration=5 --set resolution=720p \
@@ -27,9 +27,9 @@ fannabe generate create seedance-1-5-pro \
 
 ```bash
 fannabe generate create kling-2-6-motion-control \
-  --character <characterId> --media-type video \
+  --model <modelId> --media-type video \
   --source video-1=<motionVideoMediaId> \
-  --source image-1=<characterImageMediaId> \
+  --source image-1=<modelImageMediaId> \
   --set resolution=1080p --set keepOriginalSound=true \
   --wait --wait-timeout 15m --download ./output
 ```

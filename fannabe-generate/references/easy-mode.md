@@ -7,7 +7,7 @@ fannabe ai options --filter topic  --media-type image   # Themes (e.g. mirror-se
 fannabe ai options --filter outfit --media-type image   # Outfits (e.g. casual, gym)
 
 fannabe generate create <aiId> \
-  --character <characterId> --media-type image --concept-type single-image \
+  --model <modelId> --media-type image --concept-type single-image \
   --set locationPrompt=<themeId> --set outfitPrompt=<outfitId> \
   --set aspectRatio=9:16 --set resolution=1k \
   --wait --download ./output

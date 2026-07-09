@@ -1,6 +1,6 @@
 {
   "name": "fannabe",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Fannabe AI skills: generate images, videos, and voice for your AI models, with motion control, character swap, edits, prompt tools, and captions, via the Fannabe CLI.",
   "author": {
     "name": "Fanzilla Technologies",
